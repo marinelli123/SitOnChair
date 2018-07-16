@@ -128,6 +128,12 @@ input[type=button] {width: auto; overflow: visible;}
 /* let's clear some floats */
 .clearfix:after { content: " "; display: block; clear: both; }
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
     background-color: black;
     min-height: 50px;
@@ -167,7 +173,7 @@ nav.container ul li:first-child {
 
 
 .green__color {
-    color: green;
+    color: #27C1A3;
 }
 
 .slider {
@@ -184,7 +190,7 @@ nav.container ul li:first-child {
 }
 
 .arrow__left {
-    min-width: 20px;
+    min-width: 70px;
     height: 100%;
     border: 1px solid black;
 }
@@ -202,13 +208,29 @@ nav.container ul li:first-child {
 
 .slider__description {
     width: 100%;
+    min-width: 335px;
     border: 1px solid green;
+    display: flex;
     white-space: wrap;
     text-align: center;
 }
 
+bold {
+    font-size: 2em;
+    font-weight: 400;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    flex-wrap: nowrap;
+}
+
+.slider__description > p {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
 .arrow__right {
-    min-width: 20px;
+    min-width: 70px;
 
     border: 1px solid blue;
 }
