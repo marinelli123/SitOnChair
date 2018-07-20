@@ -80,9 +80,10 @@ span {
 }
 
 .middle__section__description {
-    min-width: 335px;
+    min-width: 350px;
     flex-direction: column;
     text-align: center;
+    padding-right: 30px;
 }
 
 .middle__section__description__button {
@@ -100,6 +101,7 @@ span {
     text-decoration: none;
     color: white;
     font-weight: 300;
+    flex-wrap: nowrap;
 }
 
 /* first text in description */
@@ -111,7 +113,6 @@ span {
 
 /* 2nd text in description */
 .middle__section__description p:nth-child(2) {
-    padding: 0 0;
     height: 150px;
 }
 
