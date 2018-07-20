@@ -3,41 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>SitOnChair</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
+
 </head>
 <body>
-    <main>
-
+    <div class="page">
+        <!--    SECTION  BANER    -->
         <header>
             <nav class="container">
-                <ul>
-                    <li><a href="#">SIT <b class="green__color">ON</b> CHAIR</a></li>
+                <ul class="navigation__bar">
+                    <li class=""><a href="#">SIT <span>ON</span> CHAIR</a></li>
                     <li><a href="#">O FIRMIE</a></li>
-                    <li><a href="#">GALERIA</a></li>
-                    <li><a href="#">KONTAKT</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section class="slider">
-            <div class="container">
-                    <div class="arrow__left"></div>
-                    <div class="slider__image"></div>
-                    <div class="slider__description">
-                        <p>
-                            <bold>SIT <c class="green__color">ON</c> OUR <c class="green__color">CHAIR</c></bold>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio id mollitia natus
-                        </p>
-                    </div>
-                    <div class="arrow__right"></div>
-            </div>
-        </section>
-
+                    <!--  <ul class="subMenu">
+                              <li class="arrow"></li>
+                              <li><a href="#">Historia</a></li>
+                              <li><a href="#">Nasz team</a></li>
+                              <li><a href="#">Aktualności</a></li>
+                           </ul>  -->
+                         <li><a href="#">GALERIA</a></li>
+                         <li><a href="#">KONTAKT</a></li>
+                     </ul>
+                 </nav>
+             </header>
+        <!--    SECTION  MIDDLE   - 2 ARROWS, PHOTO AND TEXT -->
+        <main>
+            <section class="middle__section">
+                <div class="container">
+                        <div class="middle__section__arrow ldt-slide-left-in">&#60</div>
+                        <div class="middle__section__image"><img src="images/black_chair.png"></div>
+                        <div class="middle__section__description">
+                            <p>SIT <span>ON</span>  OUR <span>CHAIR</span></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consectetur consequatur delectus earum eos ex fuga molestias necessitatibus officiis, rem, tempore voluptates. Autem nemo nulla odit omnis quam quas, sequi! Aliquid necessitatibus pariatur voluptates! Architecto dicta dolorem inventore nisi non.</p>
+                            <p class="middle__section__description__button"><a href="#">Zobacz więcej</a></p>
+                        </div>
+                        <div class="middle__section__arrow">&#62</div>
+                </div>
+            </section>
+        </main>
+        <!-- SECTION  FOOTER   -->
         <footer>
-            <div class="container">email: …</div>
+            <address class="container">email: …</address>
         </footer>
 
-    </main>
+    </div>
 
 </body>
 </html>
