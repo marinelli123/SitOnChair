@@ -93,7 +93,7 @@ span {
     font-size: 24px;
     cursor: pointer;
     width: 250px;
-    margin: 15px auto 0 auto;
+    margin: 0 auto 130px auto;
 }
 
 .middle__section__description__button a {
@@ -102,6 +102,22 @@ span {
     font-weight: 300;
 }
 
+/* first text in description */
+.middle__section__description p:nth-child(1) {
+    margin-top: 120px;
+    height: 90px;
+    font-size: 2em;
+}
+
+/* 2nd text in description */
+.middle__section__description p:nth-child(2) {
+    padding: 0 0;
+    height: 150px;
+}
+
+/*
+button when hovered
+ */
 .middle__section__description__button:hover {
     animation: animationFrames linear 1s;
     animation-iteration-count: 1;
@@ -300,17 +316,6 @@ span {
     }
 }
 
-/* first text in description */
-.middle__section__description p:first-child {
-    margin-top: 120px;
-    padding-bottom: 40px;
-    font-size: 2em;
-}
 
-/* 2nd text in description */
-.middle__section__description p:last-child {
-    margin-bottom: auto;
-    padding: 0 20px;
-}
 
 
