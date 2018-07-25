@@ -369,13 +369,11 @@ button when hovered
 .next__to__middle__section {
     min-height: 350px;
     width: 100%;
-    border: 1px solid green;
 }
 
 .next__to__middle__section .container {
     padding-top: 27px;
     display: flex;
-    border: 1px solid black;
     height: 350px;
 }
 
@@ -417,4 +415,18 @@ button when hovered
     height: 7px;
     background: #28C5B0;
     position: relative;
+}
+
+.background {
+    content: "";
+    display: block;
+    background: rgba(255, 255, 255, 0.3);
+    height: 61px;
+    width: 100%;
+    position: relative;
+    bottom: 80px;
+}
+
+.background h2 {
+    padding: 15px;
 }
