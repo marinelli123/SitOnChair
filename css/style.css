@@ -408,15 +408,17 @@ button when hovered
 }
 
 /* green line*/
-.next__to__middle__section .container h2:after {
+.container h2:after {
     content: "";
     display: block;
     width: 138px;
     height: 7px;
     background: #28C5B0;
     position: relative;
+    margin-top: 5px;
 }
 
+/* transparent box in each image box*/
 .background__image {
     content: "";
     display: block;
@@ -427,6 +429,143 @@ button when hovered
     bottom: 80px;
 }
 
+/* padding for word "Chair CLAIR" and "Chair MARGARITA"*/
 .background__image h2 {
     padding: 15px;
+}
+
+.prices {
+    background-color: #F0F0F0;
+}
+
+/* adjust green line*/
+.prices .container h2:after {
+    margin-top: 8px;
+    width: 320px;
+}
+
+/* padding for word "CENNIK*/
+.prices .container h2 {
+    padding: 50px 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+/* DIV with boxes of plans*/
+.plans {
+    display: flex;
+}
+
+.box__of__plans {
+    width: 330px;
+    height: 500px;
+    border: 2px solid #D5D5D5;
+    text-align: center;
+    color: #24C8A5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 1px;
+    background-color: #F8F8F8;
+}
+
+.circle {
+    position: relative;
+    border: 1px solid #D5D5D5;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #C1C1C1;
+    margin-bottom: 32px;
+}
+
+lowered__number {
+    position: relative;
+    top: 4px;
+}
+
+top__number {
+    position: relative;
+    bottom: 17px;
+}
+
+.circle strong {
+    font-size: 33px;
+}
+/* Title ie. BASIC PLAN */
+.box__of__plans p:nth-child(1) {
+    margin: 33px 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.circle p:nth-child(1) {
+    margin: 5px;
+}
+.circle p:nth-child(2) {
+    font-size: 12px;
+}
+
+.box__of__plans p:nth-child(3), .box__of__plans p:nth-child(5) {
+    background-color: #E4E4E4;
+    color: #9A9A9A;
+    height: 42px;
+    width: 100%;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.box__of__plans p:nth-child(4), .box__of__plans p:nth-child(6) {
+    background-color: #F1F1F1;
+    color: #9A9A9A;
+    height: 42px;
+    width: 100%;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+
+.button__dolacz {
+    background-color: #27C1A3;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 123px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 19px;
+}
+
+.button__dolacz a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    flex-wrap: nowrap;
+}
+
+
+.basic__plan {
+
+}
+
+.standard__plan {
+    margin: 0 31px;
+}
+
+.advanced__plan {
+
 }
