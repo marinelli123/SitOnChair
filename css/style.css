@@ -8,6 +8,7 @@ header {
     background-color: black;
     min-height: 50px;
     height: 50px;
+    position: relative;
 }
 
 /* Green text with bold */
@@ -31,26 +32,73 @@ span {
 }
 
 /* Navigation box */
-.navigation__bar li {
-    padding-left: 40px;
+.navigation__bar > li {
     white-space: nowrap;
+    justify-content: flex-end;
+    width: 120px;
 }
 
 /* Navigation box when hover */
 .navigation__bar li a:hover {
     color: #cccccc;
+
 }
 
 /* Navigation box, first box "SIT ON CHAIR"*/
-.navigation__bar li:first-child {
+.navigation__bar li:nth-of-type(1) {
     padding-left: 0;
     margin-right: auto;
 }
+
+/* Navigation box, last box "SIT ON CHAIR"*/
+.navigation__bar li:nth-of-type(4) {
+    width: auto; /* giving us that last 3 boxes are moved to the right to the containter*/
+}
+
 
 /* Stylizing links inside navigation bar */
 .navigation__bar a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
+}
+
+.submenu ul {
+    display: none;
+    position: relative;
+}
+
+.submenu:hover ul {
+    display: block;
+    padding-top: 20px;
+    left: -15px;
+}
+
+.submenu ul li a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+}
+
+.submenu ul li:nth-child(2) a {
+     padding-top: 15px;
+}
+
+.submenu ul li:nth-child(4) a {
+    padding-bottom: 10px;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    position: relative;
+    margin: 0 auto;
 }
 
 .middle__section {
@@ -75,9 +123,11 @@ span {
 }
 
 .middle__section__image {
+    display: flex;
     align-items: center;
     min-width: 337px;
 }
+
 
 .middle__section__description {
     min-width: 350px;
@@ -317,6 +367,9 @@ button when hovered
     }
 }
 
+.next__to_middle_section {
+    height: 254px;
+}
 
 
 
