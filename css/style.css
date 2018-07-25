@@ -18,10 +18,9 @@ span {
 }
 
 .container {
-    max-width: 1060px;
+    width: 1060px;
     margin: 0 auto;
     padding: 0 15px;
-    min-width: 471px;
 }
 
 .navigation__bar {
@@ -367,9 +366,55 @@ button when hovered
     }
 }
 
-.next__to_middle_section {
-    height: 254px;
+.next__to__middle__section {
+    min-height: 350px;
+    width: 100%;
+    border: 1px solid green;
 }
 
+.next__to__middle__section .container {
+    padding-top: 27px;
+    display: flex;
+    border: 1px solid black;
+    height: 350px;
+}
 
+.next__to__middle__section__container__2nd__image {
+    margin-left: 26px;
+}
 
+.find__all__inputs {
+    width: 340px;
+    height: 250px;
+    border: 1px solid #DBDBDB;
+    margin-left: 26px;
+    padding: 30px 22px;
+}
+/* First paragraph */
+.find__all__inputs p:nth-child(2) {
+  font-size: 0.86em;
+    margin-top: 45px;
+    font-weight: 300;
+}
+/* 2nd paragraph */
+.find__all__inputs p:nth-child(3) {
+    font-size: 0.86em;
+    margin-top: 30px;
+    font-weight: 300;
+}
+/* Bold names*/
+.find__all__inputs h2 {
+    font-weight: 700;
+    font-size: 1.1em;
+    position: absolute;
+}
+
+/* green line*/
+.next__to__middle__section .container h2:after {
+    content: "";
+    display: block;
+    width: 138px;
+    height: 7px;
+    background: #28C5B0;
+    position: relative;
+}

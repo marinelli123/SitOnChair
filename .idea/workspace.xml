@@ -21,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="249">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -30,8 +30,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="370" column="18" selection-start-line="370" selection-start-column="18" selection-end-line="370" selection-end-column="18" />
+            <state relative-caret-position="560">
+              <caret line="415" column="16" lean-forward="true" selection-start-line="415" selection-start-column="11" selection-end-line="415" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -58,8 +58,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/reset.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -73,8 +73,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="671" />
-    <option name="y" value="23" />
+    <option name="x" value="640" />
+    <option name="y" value="31" />
     <option name="width" value="768" />
     <option name="height" value="812" />
   </component>
@@ -158,15 +158,16 @@
       <workItem from="1531843892557" duration="876000" />
       <workItem from="1532015137214" duration="15746000" />
       <workItem from="1532073704455" duration="3812000" />
-      <workItem from="1532341346869" duration="18054000" />
+      <workItem from="1532341346869" duration="23900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68943000" />
+    <option name="totallyTimeSpent" value="74789000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="671" y="23" width="768" height="812" extended-state="0" />
+    <frame x="640" y="31" width="768" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25301206" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -323,16 +324,6 @@
     <entry file="file://$PROJECT_DIR$/fonts/Sans/specimen_files/specimen_stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/fonts/Sans/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/fonts/Sans/generator_config.txt" />
-    <entry file="file://$PROJECT_DIR$/images/warsztat1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="370" column="18" selection-start-line="370" selection-start-column="18" selection-end-line="370" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -341,10 +332,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/warsztat1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="415" column="16" lean-forward="true" selection-start-line="415" selection-start-column="11" selection-end-line="415" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="249">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>
