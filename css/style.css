@@ -417,7 +417,7 @@ button when hovered
     position: relative;
 }
 
-.background {
+.background__image {
     content: "";
     display: block;
     background: rgba(255, 255, 255, 0.3);
@@ -427,6 +427,6 @@ button when hovered
     bottom: 80px;
 }
 
-.background h2 {
+.background__image h2 {
     padding: 15px;
 }
