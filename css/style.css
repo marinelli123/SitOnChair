@@ -54,7 +54,6 @@ span {
     width: auto; /* giving us that last 3 boxes are moved to the right to the containter*/
 }
 
-
 /* Stylizing links inside navigation bar */
 .navigation__bar a {
     text-decoration: none;
@@ -82,7 +81,7 @@ span {
 }
 
 .submenu ul li:nth-child(2) a {
-     padding-top: 15px;
+    padding-top: 15px;
 }
 
 .submenu ul li:nth-child(4) a {
@@ -126,7 +125,6 @@ span {
     align-items: center;
     min-width: 337px;
 }
-
 
 .middle__section__description {
     min-width: 350px;
@@ -388,18 +386,21 @@ button when hovered
     margin-left: 26px;
     padding: 30px 22px;
 }
+
 /* First paragraph */
 .find__all__inputs p:nth-child(2) {
-  font-size: 0.86em;
+    font-size: 0.86em;
     margin-top: 45px;
     font-weight: 300;
 }
+
 /* 2nd paragraph */
 .find__all__inputs p:nth-child(3) {
     font-size: 0.86em;
     margin-top: 30px;
     font-weight: 300;
 }
+
 /* Bold names*/
 .find__all__inputs h2 {
     font-weight: 700;
@@ -436,6 +437,7 @@ button when hovered
 
 .prices {
     background-color: #F0F0F0;
+    height: 725px;
 }
 
 /* adjust green line*/
@@ -444,7 +446,7 @@ button when hovered
     width: 320px;
 }
 
-/* padding for word "CENNIK*/
+/* adjust for word "CENNIK*/
 .prices .container h2 {
     padding: 50px 0;
     margin-bottom: 0;
@@ -454,6 +456,7 @@ button when hovered
 /* DIV with boxes of plans*/
 .plans {
     display: flex;
+    justify-content: space-between;
 }
 
 .box__of__plans {
@@ -493,23 +496,29 @@ top__number {
     bottom: 17px;
 }
 
+/* adjust in first 2 numbers inside circle */
 .circle strong {
     font-size: 33px;
 }
-/* Title ie. BASIC PLAN */
+
+/* Title text ie. BASIC PLAN */
 .box__of__plans p:nth-child(1) {
     margin: 33px 0;
     font-size: 18px;
     font-weight: 300;
 }
 
+/* adjust in all numbers inside circle */
 .circle p:nth-child(1) {
     margin: 5px;
 }
+
+/* adjust in "PLN/MSC" inside circle */
 .circle p:nth-child(2) {
     font-size: 12px;
 }
 
+/* adjust in 1st and 3rd line in boxes - just after circle*/
 .box__of__plans p:nth-child(3), .box__of__plans p:nth-child(5) {
     background-color: #E4E4E4;
     color: #9A9A9A;
@@ -522,6 +531,7 @@ top__number {
     font-weight: 300;
 }
 
+/* adjust in 2st and 4rd line in boxes - just after circle*/
 .box__of__plans p:nth-child(4), .box__of__plans p:nth-child(6) {
     background-color: #F1F1F1;
     color: #9A9A9A;
@@ -533,7 +543,6 @@ top__number {
     justify-content: center;
     font-weight: 300;
 }
-
 
 .button__dolacz {
     background-color: #27C1A3;
@@ -557,15 +566,17 @@ top__number {
     flex-wrap: nowrap;
 }
 
-
+/* adjustment only in box BASIC PLAN*/
 .basic__plan {
 
 }
 
+/* adjustment only in box STANDARD PLAN*/
 .standard__plan {
-    margin: 0 31px;
+
 }
 
+/* adjustment only in box ADVANCED PLAN*/
 .advanced__plan {
 
 }
