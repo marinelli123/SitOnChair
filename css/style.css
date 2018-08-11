@@ -47,8 +47,8 @@ header {
 }
 
 .navigation__bar li:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transition: height 0.4s ease-in-out;
+    transition: 700ms;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Navigation box, first box "SIT ON CHAIR"*/
@@ -95,7 +95,7 @@ ul.submenu a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    transition: 1500ms;
+    transition: 700ms;
     opacity: 0.77;
 }
 
