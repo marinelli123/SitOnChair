@@ -61,7 +61,6 @@ header {
 
 /* Stylizing links inside navigation bar */
 .navigation__bar a {
-
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
@@ -75,13 +74,29 @@ header {
 }
 
 /* when hovered "O FIRMIE" what to do with .submenu */
+/*.navigation__bar li:nth-child(2):hover .submenu {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*top: 50px;*/
+    /*padding-top: 5px;*/
+    /*width: calc(100% + 20px);*/
+    /*animation: submenu__slow 1500ms;*/
+    /*animation-fill-mode: both;*/
+/*}*/
+
 .navigation__bar li:nth-child(2):hover .submenu {
     display: flex;
     flex-direction: column;
     top: 50px;
     padding-top: 5px;
     width: calc(100% + 20px);
+    animation: submenu__slow 1500ms;
+    animation-fill-mode: both;
+}
 
+@keyframes submenu__slow {
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
 
 /* when hovered "O FIRMIE" -> .submenu what to do with "a" elements */
@@ -89,8 +104,8 @@ ul.submenu a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    transition: 700ms;
-    opacity: 0.8;
+    transition: 1500ms;
+    opacity: 0.77;
 }
 
 
