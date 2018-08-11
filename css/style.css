@@ -10,6 +10,7 @@ header {
     min-height: 50px;
     height: 50px;
     position: relative;
+    width: 1060px;
 }
 
 /* Green text with bold */
@@ -24,9 +25,9 @@ header {
 }
 
 .navigation__bar {
+    width: 1060px;
     display: flex;
     height: 50px;
-
 }
 
 /* Navigation box */
@@ -128,7 +129,7 @@ ul.submenu a:hover {
 }
 
 .middle__section {
-    width: 100%;
+    width: 1060px;
     height: 500px;
     background-image: linear-gradient(to bottom, #fbfbfb, #efeff1, #e3e3e7, #d7d7dd, #cbcbd3);
 }
@@ -392,13 +393,14 @@ ul.submenu a:hover {
 
 .next__to__middle__section {
     min-height: 350px;
-    width: 100%;
+    width: 1060px;
 }
 
 .next__to__middle__section .container {
     padding-top: 27px;
     display: flex;
     height: 350px;
+    width: 1060px;
 }
 
 .next__to__middle__section__container__2nd__image {
@@ -464,6 +466,7 @@ ul.submenu a:hover {
 .prices {
     background-color: #F0F0F0;
     height: 725px;
+    width: 1060px;
 }
 
 /* adjust green line*/
