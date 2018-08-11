@@ -678,7 +678,9 @@ ul.submenu a:hover {
     margin: 10px 0;
     width: 100%;
     border: 1px solid #A4E1D1;
-    padding-top: 17px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 2em;
 }
 
 .email__table input {
@@ -686,7 +688,9 @@ ul.submenu a:hover {
     margin: 10px 0;
     width: 100%;
     border: 1px solid #A4E1D1;
-    padding-top: 17px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 2em;
 }
 
 /*stylizing form to looks like input*/
@@ -696,19 +700,19 @@ ul.submenu a:hover {
     resize: none;
     border: 1px solid #A4E1D1;
     margin: 10px 0;
+    padding-left: 15px;
+    font-size: 2em;
+    padding-top: 13px;
 }
 
 /*stylizing placeholder text*/
 .message__table form textarea::placeholder, .email__table input::placeholder, .name__table input::placeholder {
     color: #CDCDCD;
-    font-size: 2em;
     font-weight: 100;
-    padding: 0 15px;
 }
 
 /*stylizing placeholder text only in message__table*/
 .message__table form textarea::placeholder {
-    padding-top: 10px;
 }
 
 .photo__table {
