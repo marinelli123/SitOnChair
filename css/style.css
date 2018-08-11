@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500');
 
 body, html {
     font-family: 'Raleway', Helvetica, sans-serif;
@@ -48,9 +48,8 @@ header {
 
 .navigation__bar li:hover {
     background: rgba(255, 255, 255, 0.2);
-    transition: 700ms;
+    transition: height 0.4s ease-in-out;
 }
-
 
 /* Navigation box, first box "SIT ON CHAIR"*/
 .navigation__bar > li:nth-of-type(1) {
@@ -73,30 +72,22 @@ header {
     display: none;
 }
 
-/* when hovered "O FIRMIE" what to do with .submenu */
-/*.navigation__bar li:nth-child(2):hover .submenu {*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*top: 50px;*/
-    /*padding-top: 5px;*/
-    /*width: calc(100% + 20px);*/
-    /*animation: submenu__slow 1500ms;*/
-    /*animation-fill-mode: both;*/
-/*}*/
-
 .navigation__bar li:nth-child(2):hover .submenu {
     display: flex;
     flex-direction: column;
     top: 50px;
     padding-top: 5px;
     width: calc(100% + 20px);
-    animation: submenu__slow 1500ms;
-    animation-fill-mode: both;
+    animation: submenu 1500ms;
 }
 
-@keyframes submenu__slow {
-    0% {opacity: 0}
-    100% {opacity: 1}
+@keyframes submenu {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* when hovered "O FIRMIE" -> .submenu what to do with "a" elements */
@@ -107,8 +98,6 @@ ul.submenu a:hover {
     transition: 1500ms;
     opacity: 0.77;
 }
-
-
 
 /* how will looks "a" elements inside .submenu */
 .submenu li a {
@@ -605,11 +594,10 @@ ul.submenu a:hover {
     flex-wrap: nowrap;
 }
 
-
 .top__circle {
     border: 3px solid #d6d5d5;
-    width: 60px;
-    height: 60px;
+    width: 57px;
+    height: 57px;
     border-radius: 40px;
     position: absolute;
     background-color: white;
@@ -619,13 +607,13 @@ ul.submenu a:hover {
 .top__circle:before {
     content: '';
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 27px;
+    height: 27px;
     border-radius: 50%;
     position: absolute;
     background-color: #D5D5D5;
-    top: 15px;
-    left: 15px;
+    top: 12px;
+    left: 12px;
 }
 
 /* adjustment only in box BASIC PLAN*/
@@ -634,17 +622,23 @@ ul.submenu a:hover {
 }
 
 /* adjustment only in box STANDARD PLAN*/
-.standard__plan, .standard__plan>.circle p, .standard__plan>.top__circle, .standard__plan>.circle, .standard__plan>.box__of__plans p,.standard__plan .button__dolacz a {
+.standard__plan .top__circle:before {
+    left: 13px;
+}
+/* adjustment only in box STANDARD PLAN*/
+.standard__plan, .standard__plan > .circle p, .standard__plan > .top__circle, .standard__plan > .circle, .standard__plan > .box__of__plans p, .standard__plan .button__dolacz a {
     background-color: #27C1A3;
     color: white;
-
 }
 
+/* adjustment only in box STANDARD PLAN*/
 .standard__plan.box__of__plans, .standard__plan .top__circle {
     border: 2px solid #27C1A3;
+
 }
 
-.standard__plan .circle, .standard__plan .circle p,.standard__plan .button__dolacz, .standard__plan .button__dolacz a, .standard__plan .top__circle:before {
+/* adjustment only in box STANDARD PLAN*/
+.standard__plan .circle, .standard__plan .circle p, .standard__plan .button__dolacz, .standard__plan .button__dolacz a, .standard__plan .top__circle:before {
     background-color: white;
     color: #27C1A3;
 }
@@ -653,3 +647,72 @@ ul.submenu a:hover {
 .advanced__plan {
 
 }
+
+.contact .container h2 {
+    padding: 30px 0;
+}
+
+/* adjust green line in contact*/
+.contact .container h2:after {
+    margin-top: 8px;
+    width: 320px;
+}
+
+.contact_table {
+    width: 100%;
+}
+
+/*first column*/
+.contact_table td {
+    width: 70%;
+    /*border: 1px solid black;*/
+}
+
+/*first row*/
+.contact_table th {
+    /*border: 1px solid black;*/
+}
+
+.name__table input {
+    height: 65px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #A4E1D1;
+    padding-top: 17px;
+}
+
+.email__table input {
+    height: 65px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #A4E1D1;
+    padding-top: 17px;
+}
+
+/*stylizing form to looks like input*/
+.message__table form textarea {
+    width: 100%;
+    height: 188px;
+    resize: none;
+    border: 1px solid #A4E1D1;
+    margin: 10px 0;
+}
+
+/*stylizing placeholder text*/
+.message__table form textarea::placeholder, .email__table input::placeholder, .name__table input::placeholder {
+    color: #CDCDCD;
+    font-size: 2em;
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+/*stylizing placeholder text only in message__table*/
+.message__table form textarea::placeholder {
+    padding-top: 10px;
+}
+
+.photo__table {
+    background: url("../images/chair Orange.jpg") no-repeat center;
+    background-size: contain;
+}
+
