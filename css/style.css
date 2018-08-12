@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700');
 
 body, html {
     font-family: 'Raleway', Helvetica, sans-serif;
@@ -16,7 +16,7 @@ header {
 /* Green text with bold */
 .navigation__bar span, .middle__section span {
     color: #27C1A3;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .container {
@@ -469,7 +469,6 @@ ul.submenu a:hover {
     background-color: #F0F0F0;
     height: 725px;
     min-width: 1060px;
-
 }
 
 /* adjust green line*/
@@ -486,8 +485,7 @@ ul.submenu a:hover {
 .prices .container h2 {
     font-size: 16px;
     min-width: 1060px;
-    margin: 0 auto;
-    padding: 50px 0 100px 0;
+    padding: 50px 0 60px 0;
 }
 
 /* DIV with boxes of plans*/
