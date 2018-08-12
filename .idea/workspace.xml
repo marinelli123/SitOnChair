@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38e750df-1ab6-4fd3-b463-f4e5c4a21d60" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="38e750df-1ab6-4fd3-b463-f4e5c4a21d60" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,6 +47,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
+          <entry key="md" value="1" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
@@ -57,6 +55,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="Image" value="1" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -69,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="191" column="22" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+            <state relative-caret-position="619">
+              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,10 +80,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="808" column="21" selection-start-line="808" selection-start-column="21" selection-end-line="808" selection-end-column="21" />
+            <state relative-caret-position="419">
+              <caret line="838" column="1" lean-forward="true" selection-start-line="838" selection-start-column="1" selection-end-line="838" selection-end-column="1" />
               <folding>
                 <element signature="e#3843#4476#0" />
                 <element signature="e#4478#5338#0" />
@@ -141,8 +150,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="58" />
+    <option name="x" value="583" />
+    <option name="y" value="95" />
     <option name="width" value="1084" />
     <option name="height" value="662" />
   </component>
@@ -228,12 +237,12 @@
       <workItem from="1533711572426" duration="282000" />
       <workItem from="1533747126263" duration="585000" />
       <workItem from="1533809542434" duration="3422000" />
-      <workItem from="1533903994820" duration="36551000" />
+      <workItem from="1533903994820" duration="37110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153248000" />
+    <option name="totallyTimeSpent" value="153807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="58" width="1084" height="662" extended-state="0" />
@@ -278,36 +287,16 @@
     <entry file="file://$PROJECT_DIR$/fonts/Sans/specimen_files/specimen_stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/fonts/Sans/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/fonts/Sans/generator_config.txt" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/flickr.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/warsztat1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="191" column="22" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#figure#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="808" column="21" selection-start-line="808" selection-start-column="21" selection-end-line="808" selection-end-column="21" />
+        <state relative-caret-position="419">
+          <caret line="838" column="1" lean-forward="true" selection-start-line="838" selection-start-column="1" selection-end-line="838" selection-end-column="1" />
           <folding>
             <element signature="e#3843#4476#0" />
             <element signature="e#4478#5338#0" />
@@ -316,6 +305,26 @@
             <element signature="e#7077#7940#0" />
             <element signature="e#7942#8806#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#figure#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
