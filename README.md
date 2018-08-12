@@ -14,4 +14,4 @@ https://github.com/marinelli123/SitOnChair
 
 Wzór projektu
 
-![Wzór projektu](https://github.com/marinelli123/SitOnChair/blob/master/images/warsztat1.jpg)
+![Wzór projektu](https://github.com/marinelli123/SitOnChair/blob/master/images/wzor.jpg)
