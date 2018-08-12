@@ -524,12 +524,13 @@ ul.submenu a:hover {
 
 .lowered__number {
     position: relative;
-    top: 4px;
+    top: 2px;
 }
 
 .top__number {
     position: relative;
     bottom: 17px;
+    font-weight: 500;
 }
 
 /* adjust in first 2 numbers inside circle */
@@ -551,7 +552,8 @@ ul.submenu a:hover {
 
 /* adjust in "PLN/MSC" inside circle */
 .circle p:nth-of-type(2) {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* adjust in 1st and 3rd line in boxes - just after circle*/
@@ -673,8 +675,8 @@ ul.submenu a:hover {
 
 /*first column*/
 .contact_table td {
-    width: 70%;
     /*border: 1px solid black;*/
+    width: 60%;
 }
 
 /*first row*/
@@ -725,7 +727,113 @@ ul.submenu a:hover {
 }
 
 .photo__table {
-    background: url("../images/chair Orange.jpg") no-repeat center;
+    background: url("../images/chair Orange.jpg") no-repeat 40%;
     background-size: contain;
 }
 
+.checkbox__table {
+    /*border: 1px solid gray;*/
+    display: flex;
+    align-items: center;
+    width: 100% !important;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+
+.checkbox__table input {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 12px;
+}
+
+.checkbox__table label {
+    display: block;
+    padding-left: 65px;
+    position: relative;
+    font-size: 19px;
+    color: #cecece;
+    margin: 15px 0 36px 0;
+}
+
+.checkbox__table label::before, .checkbox__table label::after {
+    border: 1px solid #A4E1D1;
+    content: "";
+    display: block;
+    left: 0;
+    height: 48px;
+    position: absolute;
+    width: 48px;
+    top: 0;
+}
+
+.checkbox__table label::after {
+    background: url("../images/form_ok.jpg") no-repeat center;
+    background-size: 90%;
+    display: none;
+}
+
+.checkbox__table input:checked+label::after {
+    display: block;
+}
+
+.button__table {
+    /*border: 10px solid gray;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27C1A3;
+    width: 343px !important;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.button__table a {
+    text-decoration: none;
+    color: white;
+}
+
+footer.container {
+    display: flex;
+    color: #949494;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+    width: calc(100% - 363px);
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.socialMedia img {
+    margin: 0 3px;
+}
+
+footer.container div:last-of-type {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 221px;
+}
+
+footer.container div:last-of-type span {
+    font-weight: 600;
+}
