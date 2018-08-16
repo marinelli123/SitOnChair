@@ -10,7 +10,7 @@ Opierał się on na odwzorowaniu przygotowanego pliku graficznego (jak poniżej)
 * CSS
 
 #### Demo
-https://github.com/marinelli123/SitOnChair
+https://marinelli123.github.io/SitOnChair/
 
 Wzór projektu
 
